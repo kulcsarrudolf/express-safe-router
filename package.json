@@ -1,0 +1,21 @@
+{
+  "name": "express-safe-router",
+  "version": "0.0.1",
+  "description": "Express Error Handling",
+  "main": "src/app.ts",
+  "repository": "git@github.com:kulcsarrudolf/express-safe-router.git",
+  "author": "Kulcsar Rudolf <kulcsarrudolf@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./bin/app.js",
+    "dev": "ts-node ./src/app.ts"
+  },
+  "dependencies": {
+    "@types/node": "^18.14.6",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
